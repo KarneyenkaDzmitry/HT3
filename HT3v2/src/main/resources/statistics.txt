@@ -1,0 +1,13 @@
++ [open "https://google.com" "3"] 1.584
+! [checkPageTitle "Google Search Page"] 0.016
+! [checkPageContains "The best search engine"] 0.001
++ [open "https://mail.ru/" "3"] 0.516
++ [checkPageTitle "Mail.Ru: почта, поиск в интернете, новости, игры"] 0.0
++ [checkPageContains "Картинки"] 0.006
++ [open "https://www.tut.by" "3"] 0.432
++ [checkPageTitle "Белорусский портал TUT.BY. Новости Беларуси и мира"] 0.0
++ [checkPageContains "Разделы"] 0.0
+Total tests: 9
+Passed/Failed: 7/2
+Total time: 2.555
+Average time: 0.283
